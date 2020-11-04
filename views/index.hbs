@@ -1,0 +1,13 @@
+<main>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <ul>
+                    {{#each shows}}
+                        <li><a href="/show/{{ this.tvid }}">{{ this.name }}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 1.5rem;
+    }
+    
+    #info-div {
+        flex-direction: column;
+    }
+}
